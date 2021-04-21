@@ -12,11 +12,10 @@ import (
 // IDType is the data type of IDs
 type IDType int64
 
-// SerialNum represents the 6 byte value for serial numbers on
-// Autronica devices
+// SerialNum represents the 6 byte value for serial numbers
 type SerialNum [6]byte
 
-// SerialNumValues contains the decoded values of SocketID
+// SerialNumValues contains the decoded values
 type SerialNumValues struct {
 	A    uint16
 	B    uint16
